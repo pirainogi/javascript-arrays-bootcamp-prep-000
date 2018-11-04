@@ -16,29 +16,27 @@ function addElementToEndOfArray(array, element){
 
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element); 
-  return chocolateBars;
+  return array;
 }
 
-
-
-function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.shift();
-  return chocolateBars;
-}
-
-function removeElementFromBeginningOfArray(chocolateBars){
-  return chocolateBars.slice(1);
-}
-
-function destructivelyRemoveElementFromEndOfArray(chocolateBars){
-  chocolateBars.pop();
-  return chocolateBars;
-}
-
-function removeElementFromEndOfArray(chocolateBars){
-  return chocolateBars.slice(0, chocolateBars.length - 1)
-}
-
-function accessElementInArray(array, index) {
+function accessElementInArray(array, index){
   return array[index] 
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift();
+  return array;
+}
+
+function removeElementFromBeginningOfArray(array){
+  return array.slice(1);
+}
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.pop();
+  return array;
+}
+
+function removeElementFromEndOfArray(array){
+  return array.slice(0, array.length - 1)
 }
