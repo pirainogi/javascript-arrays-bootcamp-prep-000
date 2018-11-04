@@ -19,7 +19,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, chocString){
   return chocolateBars;
 }
 
-
+function 
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   chocolateBars.shift();
