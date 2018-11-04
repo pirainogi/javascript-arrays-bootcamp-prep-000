@@ -20,5 +20,5 @@ function destructivelyAddElementToEndOfArray(chocolateBars, chocString){
 }
 
 function accessElementInArray (array, index){
-  rturn array
+  rturn array[index];
 }
