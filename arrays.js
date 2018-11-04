@@ -34,3 +34,5 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   chocolateBars.pop();
   return chocolateBars;
 }
+
+function 
