@@ -10,3 +10,11 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, chocString){
   return chocolateBars;
 }
 
+function addElementToEndOfArray(chocolateBars, chocString){
+  return [...chocolateBars, chocString];
+}
+
+function destructivelyAddElementToEndOfArray(chocolateBars, chocString){
+  chocolateBars.push(chocString); 
+  return chocolateBars;
+}
