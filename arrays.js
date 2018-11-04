@@ -19,7 +19,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, chocString){
   return chocolateBars;
 }
 
-function accessElementInArray(chocolateBars, 2){
+function accessElementInArray(chocolateBars, "kitkat"){
   return chocolateBars[3];
 }
 
