@@ -20,7 +20,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, chocString){
 }
 
 function accessElementInArray(chocolateBars, "kitkat"){
-  
+  return 
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
